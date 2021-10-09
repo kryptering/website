@@ -58,12 +58,31 @@ html, body {
     font-weight: bold;
     font-style: italic;
     color: #333333;
+    margin-bottom: 1.5rem;
+}
+.jmbt .actions {
     margin-bottom: 2rem;
+    display: flex;
+}
+.jmbt .actions .btn {
+    padding: 0.75rem 0.5rem;
+    color: var(--blue);
+    background-color: white;
+    border: 2px solid var(--blue);
+    margin: 0 0.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.jmbt .actions .btn:hover {
+    background-color: var(--blue);
+    color: white;
 }
 .jmbt .preview img {
     max-width: 823px;
     height: auto;
     box-shadow: 0 2rem 5rem -1rem rgba(0,0,0,0.8);
-    border-radius: 3rem;
+    border-radius: 15px;
+    border: 10px solid #222;
+    border-bottom-width: 30px;
     margin-bottom: -15rem;
 }
